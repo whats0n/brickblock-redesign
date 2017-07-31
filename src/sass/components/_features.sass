@@ -1,0 +1,49 @@
+.features
+	padding: 158px 0 101px 0
+	&__list
+		display: flex
+		justify-content: space-between
+		flex-wrap: wrap
+		max-width: percentage(1015/1170)
+		margin: 0 auto -94px
+		position: relative
+		&:before, &:after
+			content: ""
+			display: block
+			background-color: $border-gray
+			position: absolute
+		&:before
+			top: 0
+			left: 50%
+			width: 1px
+			height: calc(100% - 94px)
+			transform: translate(-50%, 0)
+		&:after
+			top: calc(50% - 94px/2)
+			left: 50%
+			transform: translate(-50%, -50%)
+			width: percentage(893/1015)
+			height: 1px
+
+.feature
+	width: percentage(432/1170)
+	margin-bottom: 94px
+	text-align: center
+	&__in
+		margin-bottom: 37px
+	h4
+		color: #fff
+		fz24
+		font-weight: 400
+		letter-spacing: 1.04px
+		margin-bottom: 17px
+	p
+		font-size: 17px
+		letter-spacing: 0.4px
+		color: rgba(255,255,255,.6)
+	.h5
+		color: rgba(255,255,255,.6)
+		margin-bottom: 16px
+	&__image
+		width: 297px
+		height: 191px

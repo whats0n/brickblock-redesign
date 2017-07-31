@@ -18,6 +18,7 @@
 
 
 @mixin css-lock($min-size: 1, $max-size: 1.4, $min-width: 20, $max-width: 100, $property: font-size, $unit: px)
+  #{$property}: #{$max-size}#{$unit}
   #{$property}: calc(#{$min-size}#{$unit} + (#{$max-size} - #{$min-size}) * ((100vw - #{$min-width}#{$unit}) / (#{$max-width} - #{$min-width})))
   @media (max-width: #{$min-width}#{$unit})
     #{$property}: #{$min-size}#{$unit}
@@ -67,8 +68,6 @@
   @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)
     @content
 
-=box
-  +box-sizing(border-box)
 // vertical-align at center
 =vcenter
   position: absolute
@@ -97,7 +96,6 @@
 =rotate($deg: 0, $m11: 0, $m12: 0, $m21: 0, $m22: 0)
   transform: rotate($deg + deg)
   filter: progid:DXImageTransform.Microsoft.Matrix(M11=$m11, M12=$m12,M21=$m21, M22=$m22, sizingMethod='auto expand')
-  zoom: 1
 
 // TRANSITION
 
@@ -112,12 +110,13 @@
 =hidetext
   +hide-text
 
+
+// IMPORTANT!!!! REQUIRES SPACES BETWEEN ELEMENTS, NO SUCH STUFF: </li><li>
 =justify
   text-align: justify
   line-height: 0
   font-size: 0
   text-justify: newspaper
-  zoom: 1
   text-align-last: justify
   &:after
     content: ""
@@ -141,7 +140,7 @@
     content: " "
     display: table
     clear: both
-  *zoom: 1
+
 
 =placeholder-color($color)
   &::placeholder
@@ -250,6 +249,10 @@
 
 =blur($var)
   filter: blur($var)
+
+=better-blur($radius)
+  filter: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='a' x='0' y='0' width='1' height='1' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='#{$radius}' result='b'/%3E%3CfeMorphology operator='dilate' radius='#{$radius}'/%3E %3CfeMerge%3E%3CfeMergeNode/%3E%3CfeMergeNode in='b'/%3E%3C/feMerge%3E%3C/filter%3E %3C/svg%3E#a")
+  
 =scale($var)
   transform: scale($var)
 

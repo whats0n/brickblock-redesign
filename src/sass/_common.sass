@@ -1,5 +1,112 @@
-body
-  background: #FFF
-  +css-lock(16, 50, 600, 1000)
-  line-height: 1.4
+=ssp
+	font-family: "Source Sans Pro", sans-serif
+=st
+	font-family: sans-serif
+=sd
+	font-family: sans-serif
 
+body
+	background: #fff
+	line-height: 1.46
+	font-weight: 300
+	color: $text-gray
+	+st
+
+.h2
+	+ssp
+	font-size: 34px
+	font-weight: 600
+	text-transform: uppercase
+	letter-spacing: 2px
+.h3
+	+ssp
+	font-size: 24px
+	font-weight: 600
+	letter-spacing: 2.19px
+	color: #000
+	text-transform: uppercase
+.h4
+	font-size: 16px
+	font-weight: 500
+	color: #000
+	text-transform: uppercase
+	letter-spacing: 0.6px
+.h5
+	+ssp
+	font-size: 14px
+	font-weight: 600
+	letter-spacing: 2.19px
+	line-height: 2.38
+	color: rgba(74, 74, 74, 0.6)
+.btn
+	appearance: none
+	height: 40px
+	font-size: 13px
+	font-weight: 600
+	border-radius: 4px
+	letter-spacing: 0.64px
+	text-transform: uppercase
+	position: relative
+	+sd
+	&__arr
+		font-size: 0
+		position: absolute
+		top: 50%
+		right: 22px
+		transform: translate(0, -50%)
+		div
+			+arr(6, 10, #00b8f4, r)
+			display: inline-block
+		div:nth-child(2)
+			opacity: .56
+			margin-right: 1px
+		div:nth-child(3)
+			opacity: .3
+
+	&_dark
+		box-shadow: 0 4px 7px rgba(0, 14, 70, 0.47)
+		background: $g-dark
+		color: #fff
+		padding-right: 18px
+	&_bord
+		background-color: rgba(0, 0, 0, 0.11)
+		color: #fff
+		border: 1px solid #fff
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18)
+.box
+	box-shadow: 2px 4px 5px rgba(20, 32, 51, 0.15)
+	border-radius: 5px
+	background-color: #fff
+
+.companies
+	display: flex
+	justify-content: space-between
+	li
+		display: inline-block
+		vertical-align: middle
+		a
+			display: block
+			img
+				max-width: 100%
+
+
+.section
+	&_dark
+		background: $g-bg-dark
+		color: #fff
+	&_blue
+		background: $g-bg-blue
+
+.input
+	input
+		height: 41px
+		background-color: #fff
+		box-shadow: 1px 3px 4px rgba(20, 32, 51, 0.15)
+		border-radius: 4px
+		border: 0
+		padding: 12px 17px
+		color: rgba(0, 0, 0, 0.7)
+		font-size: 14px
+		&:focus
+			&::placeholder
+				color: transparent

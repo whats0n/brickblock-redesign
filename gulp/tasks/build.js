@@ -11,6 +11,7 @@ function build(cb) {
         'nunjucks',
         'webpack',
         'copy',
+        'list-pages',
         cb
     );
 }
