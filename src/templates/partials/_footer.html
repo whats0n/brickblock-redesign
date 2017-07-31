@@ -1,0 +1,90 @@
+<footer class="footer">
+  <div class="l l_col">
+    <!-- begin col -->
+    <div class="l-col l-col_l">
+      <div class="footer__top">
+        <!-- begin logo -->
+        <a href="" class="footer__logo">
+          <img src="img/logoblue.png" alt="brickblock"/>
+        </a>
+        <!-- end logo -->
+
+        <!-- begin switcher -->
+        <div class="footer__switcher">
+          <span>ENG</span>
+          {{ mixins.icon('arrowhead') }}
+        </div>
+        <!-- end switcher -->
+      </div>
+
+      <!-- begin subscribe -->
+      <div class="footer__subscribe">
+        <p>Subscribe to our newsletter</p>
+        <form action="">
+          <div class="input">
+            <input type="text" placeholder="Your email address"/>
+            <button class="btn btn_dark" type="submit">Go!</button>
+          </div>
+        </form>
+      </div>
+      <!-- end subscribe -->
+
+      <!-- begin copyright -->
+      <div class="footer__copyright">
+        <p>Copyright © Brickblock Team</p>
+      </div>
+      <!-- end copyright -->
+    </div>
+    <!-- end col -->
+
+    <!-- begin col -->
+    <div class="l-col l-col_r">
+      <div class="footer__nav">
+        <!-- begin footer__col  -->
+        <div class="footer__col">
+          <h3>Support</h3>
+          <ul>
+            <li><a href="https://t.me/joinchat/AAAAAERj-_1p8AktrkESlQ" target="_blank">Chat</a></li>
+            <li><a href="https://t.me/joinchat/AAAAAERj-_1p8AktrkESlQ" target="_blank">FAQ</a></li>
+          </ul>
+        </div>
+        <!-- end footer__col -->
+        <!-- begin footer__col  -->
+        <div class="footer__col">
+          <h3>Quick menu</h3>
+          <ul>
+            <li><a href="{% if tokens %}#notification{% else %}/tokens.html#!notification{% endif %}">Newsletter</a></li>
+            <li><a href="https://medium.com/brickblock-io/brickblock-token-sale-812575df1e24" target="_blank">Token Sale</a></li>
+            <li><a href="{% if tokens %}#faq{% else %}/tokens.html#!faq{% endif %}">Token FAQ</a></li>
+            <li><a href="https://medium.com/brickblock-io/want-to-learn-more-about-brickblock-heres-where-you-ll-find-us-95dcf6b76e84" target="_blank">Events</a></li>
+            <li><a href="https://medium.com/brickblock-io/official-brickblock-bounty-campaign-2846a6f1fb44" target="_blank">Bounties</a></li>
+          </ul>
+        </div>
+        <!-- end footer__col -->
+        <!-- begin footer__col  -->
+        <div class="footer__col">
+          <h3>BitcoinTalk</h3>
+          <ul>
+            <li><a href="https://bitcointalk.org/index.php?topic=1966929" target="_blank">Announcement</a></li>
+            <li><a href="https://bitcointalk.org/index.php?topic=2013175" target="_blank">Bounty Campaign</a></li>
+          </ul>
+        </div>
+        <!-- end footer__col -->
+        <!-- begin footer__col  -->
+        <div class="footer__col">
+          <h3>Quick links</h3>
+          <ul>
+            <li><a href="/files/Brickblock_General_Whitepaper_v102.pdf" target="_blank">Whitepaper</a></li>
+            <li><a href="{% if homepage %}#team{% else %}/#!team{% endif %}">Team</a></li>
+            <li><a href="/platform.html">Platform</a></li>
+            <li><a href="{% if platform %}#technology{% else %}/platform.html#!technology{% endif %}">Technology</a></li>
+            <li><a href="/timeline.html">Timeline</a></li>
+            <li><a href="/tokens.html">Countdown</a></li>
+          </ul>
+        </div>
+        <!-- end footer__col -->
+      </div>
+    </div>
+    <!-- end col -->
+  </div>
+</footer>
