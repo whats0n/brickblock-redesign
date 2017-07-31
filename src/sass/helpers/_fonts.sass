@@ -1,20 +1,23 @@
-+font("SFUIDisplay-Regular", HelveticaNeueDeskInterface-Regular)
++font("sfns-display-regular", HelveticaNeueDeskInterface-Regular)
 +font("SFUIDisplay-Medium", SFUIDisplay-Medium)
 +font("SFUIDisplay-Semibold", SFUIDisplay-Semibold)
 +font("SFUIText-Regular", SFUIText-Regular)
++font("SFUIText-Medium", SFUIText-Medium)
 +font("SourceSansPro-Regular", SourceSansPro-Regular)
 +font("SourceSansPro-Semibold", SourceSansPro-Semibold)
 
 =f($name, $font-size: null, $line-height: null, $letter-spacing: null)
   $font-family: null
-  @if $name == "sdr"
-    $font-family: "SFUIDisplay-Regular"
+  @if $name == "sfr"
+    $font-family: "sfns-display-regular"
   @if $name == "sdm"
     $font-family: "SFUIDisplay-Medium"
   @if $name == "sdsb"
     $font-family: "SFUIDisplay-Semibold"
   @if $name == "str"
     $font-family: "SFUIText-Regular"
+  @if $name == "stm"
+    $font-family: "SFUIText-Medium"
   @if $name == "ssr"
     $font-family: "SourceSansPro-Regular"
   @if $name == "sssb"
