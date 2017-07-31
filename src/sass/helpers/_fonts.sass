@@ -1,0 +1,30 @@
++font("SFUIDisplay-Regular", HelveticaNeueDeskInterface-Regular)
++font("SFUIDisplay-Medium", SFUIDisplay-Medium)
++font("SFUIDisplay-Semibold", SFUIDisplay-Semibold)
++font("SFUIText-Regular", SFUIText-Regular)
++font("SourceSansPro-Regular", SourceSansPro-Regular)
++font("SourceSansPro-Semibold", SourceSansPro-Semibold)
+
+=f($name, $font-size: null, $line-height: null, $letter-spacing: null)
+  $font-family: null
+  @if $name == "sdr"
+    $font-family: "SFUIDisplay-Regular"
+  @if $name == "sdm"
+    $font-family: "SFUIDisplay-Medium"
+  @if $name == "sdsb"
+    $font-family: "SFUIDisplay-Semibold"
+  @if $name == "str"
+    $font-family: "SFUIText-Regular"
+  @if $name == "ssr"
+    $font-family: "SourceSansPro-Regular"
+  @if $name == "sssb"
+    $font-family: "SourceSansPro-Semibold"
+  font-family: $font-family, Helvetica Neue, Helvetica, Arial, sans-serif
+  @if $font-family != null
+    font-weight: normal
+  @if $font-size != null
+    font-size: $font-size * 1px
+  @if $line-height != null
+    line-height: $line-height/$font-size
+  @if $letter-spacing != null
+    letter-spacing: ($letter-spacing / 1000) * 1em
