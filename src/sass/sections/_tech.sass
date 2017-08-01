@@ -1,11 +1,22 @@
 .i-tech
 	padding: 160px 0 60px
+	&__inner
+		padding: 0 15px
+		margin: 0 auto
+		max-width: 1030px
+		+clr
 	&__title
 		margin-bottom: 19px
 	&__content
 		margin-bottom: 63px
+		p
+			color: $text-gray
+			+f("sfr", 17, 24, 0.2)
 	&__row
 		margin: 0 -15px
 	&__col
 		padding: 0 15px 30px
-	
+	&__img
+		display: block
+		margin: 0 auto 93px
+		max-width: 100%
