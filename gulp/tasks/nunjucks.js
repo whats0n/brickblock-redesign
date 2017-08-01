@@ -27,6 +27,7 @@ var pages = {
     'platform': [
         'tech',
         'partners',
+        'investors',
         'topic',
         'built'
     ]

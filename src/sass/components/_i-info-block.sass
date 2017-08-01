@@ -1,0 +1,27 @@
+.i-info-block
+	position: relative
+	padding: 0 25px 0 42px
+	+sm
+		padding: 0 0 0 37px
+	&__icon
+		position: absolute
+		top: -2px
+		left: 0
+		+vertical
+		width: 25px
+		height: 28px
+		background: url(../img/shield.svg) no-repeat center center
+		background-size: contain
+		.icon
+			display: inline-block
+			vertical-align: middle
+			margin-left: 2px
+			stroke: $white
+			font-size: 13px
+	&__title
+		margin-bottom: 13px
+		color: $black
+	p 
+		color: $text-gray
+		+f('str', 15, 24)
+		letter-spacing: 0.18px

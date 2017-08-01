@@ -3,6 +3,7 @@
 		"title": "Technology used by brickblock",
 		"description": "Brickblock will setup a parent smart contract which will help create further contacts between fund managers and investors. We envision that Brickblock will one day have to only verify a fund manager and give him an access code to set certain parameters that enable him to set up affiliated smart contracts which are automatically included in the dApp. Users will be able to authenticate the affiliated smart contracts through the parent smart contract. Therefore, all smart contracts are traceable to one address.",
 		"imgAlt": "An image",
+		"imgSrc": "technology.svg",
 		"boxes": [
 			{
 				"title": "EXPLORE Platform",

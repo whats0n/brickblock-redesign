@@ -1,0 +1,59 @@
+.i-investors
+	padding: 80px 0 95px
+	&__content
+		float: left
+		padding: 30px 0 1px
+		width: 41%
+		max-width: 400px
+		+md
+			float: none
+			width: 100%
+			max-width: 600px
+		p
+			color: $text-gray
+			+f('sfr', 17, 24)
+			letter-spacing: 0.2px
+			+sm
+				font-size: 16px
+	&__meta
+		margin-bottom: 7px
+		color: rgba(74, 74, 74, 0.6)
+		text-transform: uppercase
+	&__title
+		color: $black
+		margin-bottom: 14px
+	&__figure
+		position: relative
+		float: right 
+		width: 59%
+		height: 757px
+		font-size: 0
+		text-align: center
+		+md
+			float: none
+			padding: 30px 0
+			width: 100%
+			height: auto
+		img
+			max-width: 100%
+			max-height: 100%
+	&__list
+		&_vertical
+			float: left
+			width: 41%
+			+md
+				float: none
+				clear: both
+				width: 100%
+		&_horizontal
+			clear: both
+			width: 100%
+			+clr
+			.i-investors__item
+				float: left
+				width: 33.33%
+				+md
+					float: none
+					width: 100%
+	&__item
+		padding: 30px 0
