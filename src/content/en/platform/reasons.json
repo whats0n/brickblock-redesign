@@ -1,0 +1,38 @@
+{
+	"reasons": {
+		"title": "Why investors need Brickblock?",
+		"description": "Perform complex behavioral analysis and get answers in seconds with automated insights, enterprise security, and 99.99% uptime integration update and activity",
+		"items": [
+			{
+				"icon": "reasons-bank",
+				"title": "ELIMINATING FX",
+				"description": "By this feature, a new way of 24/7 trading will develop, which will eliminate the big price spreads of assets, when stock exchanges close."
+			},
+			{
+				"icon": "reasons-marketplace",
+				"title": "INDEPENDENT MARKETPLACE",
+				"description": "No matter where you are, invest without a banking account. The blockchain does not discriminate between geographical restrictions."
+			},
+			{
+				"icon": "reasons-graph",
+				"title": "OPTIMIZING DIVIDENDS",
+				"description": "The existing out-dated clearing and settlement processes take two days. Brickblock only needs a fraction of the costs and time to confirm the trade on the unalterable blockchain."
+			},
+			{
+				"icon": "reasons-entry-cost",
+				"title": "LOW ENTRY COST",
+				"description": "All real-world assets are physically stored and only claimable by the Proof-of-Asset token holder. All dividend payouts are only linked to self-executing auditable smart contracts."
+			},
+			{
+				"icon": "reasons-global-investments",
+				"title": "GLOBAL INVESTMENTS",
+				"description": "Brickblock is fully transparent. All movements on the securities account will be trackable. All trader accounts will have an API to track their performance."
+			},
+			{
+				"icon": "reasons-flower",
+				"title": "NO MINIMUM INVESTMENT",
+				"description": "Asset-backed tokens provide the possibility to switch the risk of cryptocurrencies into real assets without having to first exchange them into fiat currency."
+			}
+		]
+	} 
+}

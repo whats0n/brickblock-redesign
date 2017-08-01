@@ -28,6 +28,7 @@ var pages = {
         'tech',
         'partners',
         'investors',
+        'reasons',
         'topic',
         'built'
     ]
