@@ -25,7 +25,7 @@ var langs = [
 
 var pages = {
     'platform': [
-        'info',
+        'topic',
         'built'
     ]
 };
