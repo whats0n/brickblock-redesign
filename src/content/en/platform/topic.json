@@ -2,6 +2,8 @@
 	"topic": {
 		"title": " Platform for trading without a middleman",
 		"subTitle": "Trade tokenized ETFs, Real Estate and Cryptofunds on a secure marketplace.",
-		"img": "topic-img.png"
+		"img": "topic-img.png",
+		"btnDark": "GENERAL WHITEPAPER",
+		"btnBord": "TECHNICAL WHITEPAPER"
 	} 
 }

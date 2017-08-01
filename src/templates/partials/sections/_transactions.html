@@ -1,0 +1,22 @@
+<!-- i-transactions -->
+<div class="i-transactions">
+	<div class="i-transactions__inner inner">
+		<div class="i-transactions__text">
+			<h4 class="i-transactions__sub-title i-sub-title">{{transactions.subTitle}}</h4>
+			<h3 class="i-transactions__title-md i-title-md">{{transactions.title}}</h3>
+			{% for text in transactions.text %}
+				<p>{{text}}</p>
+			{% endfor %}
+			<div class="i-transactions__footer">
+				<a href="#" class="i-transactions__link">
+					{{ transactions.link }}
+					{{ mixins.icon('arrow') }}
+				</a>
+			</div>
+		</div>
+		<div class="i-transactions__img">
+			<img src="./img/transactions-img.png" alt="img">
+		</div>
+	</div>
+</div>
+<!-- ¯\_(ツ)_/¯ -->
