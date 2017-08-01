@@ -1,0 +1,55 @@
+.i-partners	
+	background: #dc67f2
+	background-image: linear-gradient(221deg, #dc67f2 0%, #2077fa 100%)
+	&__inner
+		position: relative
+		padding-top: 106px
+		padding-bottom: 208px
+		+sm
+			padding-bottom: 105px
+	&__title
+		margin-bottom: 30px
+		color: $white
+		+f('sssb', 22, 33)
+		letter-spacing: 2px
+		text-transform: uppercase
+		+sm
+			text-align: center
+	&__row
+		+clr
+	&__col
+		float: left
+		padding: 15px
+		width: 25%
+		+md
+			width: 50%
+			padding: 10px 
+		+sm
+			width: 100%
+	&__logo
+		display: block
+		height: 65px
+		opacity: 0.84
+		+vertical
+		transition: opacity 0.175s ease-in-out
+		+hover
+			opacity: 1
+		img
+			display: inline-block
+			vertical-align: middle
+			max-width: 100%
+			max-height: 100%
+	&__box
+		position: absolute
+		top: 100%
+		left: 0
+		right: 0
+		padding: 0 15px
+		margin-top: -155px
+		+sm 
+			position: relative
+			top: auto
+			left: auto
+			right: auto
+			padding: 0
+			margin-top: 30px

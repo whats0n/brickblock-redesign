@@ -1,0 +1,55 @@
+.i-block
+	position: relative
+	overflow: hidden
+	padding: 63px 390px 74px 105px
+	border-radius: 5px
+	color: $text-gray
+	background: $white
+	box-shadow: 2px 4px 5px rgba(20, 32, 51, 0.15)
+	+md
+		padding: 45px 30px 30px 30px
+	+sm
+		padding: 45px 15px 30px
+	&__icon
+		position: absolute
+		top: -30px
+		left: -47px
+	&__title
+		margin-bottom: 15px
+		+md
+			padding-left: 75px
+			margin-bottom: 33px
+		+sm 
+			font-size: 20px
+	&__description
+		max-width: 410px
+		+f('sfr', 17)
+		line-height: 1.42
+		letter-spacing: 0.2px
+		+md
+			padding-right: 390px
+			max-width: 800px
+		+sm 
+			padding: 0 0 30px
+			max-width: 100%
+			font-size: 16px
+	&__btn
+		width: 100%
+		max-width: 330px
+		position: absolute
+		top: 50%
+		right: 53px
+		text-align: center
+		transform: translate3d(0,-50%,0)
+		+md
+			top: auto
+			bottom: 30px
+			+gpu
+		+sm
+			position: relative
+			bottom: auto
+			right: auto
+			float: right
+			padding: 0 10px
+			font-size: 10px
+			

@@ -25,6 +25,10 @@ var langs = [
 
 var pages = {
     'platform': [
+        'tech',
+        'partners',
+        'investors',
+        'reasons',
         'topic',
         'built'
     ]

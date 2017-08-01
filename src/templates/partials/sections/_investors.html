@@ -1,0 +1,44 @@
+<!-- begin i-investors -->
+<div class="i-investors">
+	<div class="inner">
+		<div class="i-investors__content">
+			<div class="i-sub-title i-investors__meta">{{investors.meta}}</div>
+			<h3 class="i-title-md i-investors__title">{{investors.title}}</h3>
+			<p>{{investors.description}}</p>
+		</div>
+		<div class="i-investors__figure">
+			<img src="img/{{investors.imgSrc}}" alt="{{investors.imgAlt}}" />
+		</div>
+		<ul class="i-investors__list i-investors__list_vertical">
+			{% for item in investors.items %}
+				{% if loop.index <= 3 %}
+					<li class="i-investors__item">
+						<div class="i-info-block">
+							<div class="i-info-block__icon">
+								{{mixins.icon('check')}}
+							</div>
+							<h4 class="i-title-sm i-info-block__title">{{item.title}}</h4>
+							<p>{{item.description}}</p>
+						</div>
+					</li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+		<ul class="i-investors__list i-investors__list_horizontal">
+			{% for item in investors.items %}
+				{% if loop.index > 3 %}
+					<li class="i-investors__item">
+						<div class="i-info-block">
+							<div class="i-info-block__icon">
+								{{mixins.icon('check')}}
+							</div>
+							<h4 class="i-title-sm i-info-block__title">{{item.title}}</h4>
+							<p>{{item.description}}</p>
+						</div>
+					</li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</div>
+</div>
+<!-- end i-investors -->

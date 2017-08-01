@@ -1,0 +1,35 @@
+{
+	"investors": {
+		"meta": "BUILT ON ETHEREUM",
+		"title": "How we protect investors",
+		"description": "Perform complex behavioral analysis and get answers in seconds with automated insights, enterprise security",
+		"imgAlt": "Flow",
+		"imgSrc": "flowchart.svg",
+		"items": [
+			{
+				"title": "Digital Trust Fund",
+				"description": "In order to ensure the safety of the underlying assets a digital trust fund will be initiated. The regulated fund will maintain a token to shares ratio of 1:1."
+			},
+			{
+				"title": "SECURE SEGREGATED FUNDS",
+				"description": "The securities account cannot be claimed by us or anybody else. All client funds are segregated. Thus client assets are protected and not affected even in the case of bankruptcy."
+			},
+			{
+				"title": "DUE DILIGENCE",
+				"description": "Each investment opportunity will be carefully screened, compliance checked and rated by independent experts and ranked according to risks involved."
+			},
+			{
+				"title": "WEALTH PROTECTION",
+				"description": "Brickblock enables  low to medium net-worth clients the same wealth protection as high net worth individuals, within a fully compliant framework."
+			},
+			{
+				"title": "REGULATORY COMPLIANT",
+				"description": "In line with regulatory compliance all fund shares will remain liquid and be reclaimable by the token holder at any time. "
+			},
+			{
+				"title": "LEGAL SUPPORT",
+				"description": "Brickblock will work together with authorities to offer legal plug&play frameworks for investors as well as to fund managers."
+			}
+		]
+	} 
+}

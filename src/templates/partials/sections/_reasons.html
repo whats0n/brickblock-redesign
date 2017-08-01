@@ -1,0 +1,21 @@
+<!-- begin i-reasons -->
+<div class="i-reasons">
+	<div class="inner">
+		<div class="i-reasons__content">
+			<h3 class="i-title-md i-reasons__title">{{reasons.title}}</h3>
+			<p>{{reasons.description}}</p>
+		</div>
+		<div class="i-reasons__row">
+			{% for item in reasons.items %}
+				<div class="i-reasons__col">
+					<div class="i-reasons__icon">
+						<img src="img/{{item.icon}}.svg" alt="/" />
+					</div>
+					<h4 class="i-reasons__subtitle">{{item.title}}</h4>
+					<p>{{item.description}}</p>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+<!-- end i-reasons -->

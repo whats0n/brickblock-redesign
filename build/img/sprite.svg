@@ -2,6 +2,8 @@
     <path d="M0 4.6h10.2M6 .6l4.7 4.1L6 8.8" stroke-width="1.5" stroke-miterlimit="50"/>
 </symbol><symbol id="icon-arrowhead" viewBox="0 0 6.63 9.13">
     <path stroke-miterlimit="50" stroke-width="1.5" d="M.82.56l4.1 3.62L.82 7.8"/>
+</symbol><symbol id="icon-check" viewBox="0 0 13 15.31">
+    <path stroke-linecap="round" stroke-miterlimit="50" stroke-width="3" d="M1.5 6.91l3.03 5.3L11.5 2.15"/>
 </symbol><symbol id="icon-facebook" viewBox="0 0 10 19">
     <title>
         facebook

@@ -1,0 +1,53 @@
+.i-reasons
+	padding: 100px 0 72px
+	color: $white
+	background: rgba(23, 17, 102, 0.94)
+	background-image: linear-gradient(180deg, rgba(23, 17, 102, 0.94) 0%, rgba(11, 6, 59, 0.94) 100%)
+	&__content
+		max-width: 800px
+		p
+			opacity: 0.8
+			+f('sfr', 17, 24)
+			letter-spacing: 0.2px
+			+sm
+				font-size: 16px
+	&__title
+		margin-bottom: 13px
+		// background: -webkit-linear-gradient(#ed6ab5, #ffbe3f)
+		color: #ffbe3f
+	&__row
+		margin: 0 -43px
+		+clr
+		+sm
+			margin: 0
+	&__col
+		float: left
+		padding: 44px 43px
+		width: 33.33%
+		+md
+			width: 50%
+		+sm
+			padding: 20px 0
+			width: 100%
+		p 
+			opacity: 0.8
+			+f('str', 15, 22)
+	&__icon
+		margin-bottom: 23px
+		height: 70px
+		+vertical
+		text-align: left
+		img
+			display: inline-block
+			vertical-align: middle
+	&__subtitle
+		margin-bottom: 10px
+		opacity: 0.8
+		+f('stm', 15, 22)
+		text-transform: uppercase
+
+@supports (-webkit-background-clip: text) and (-webkit-text-fill-color: transparent)
+	.i-reasons__title
+		background-image: linear-gradient(to right, #ed6ab5 0%, #ffbe3f 100%)
+		-webkit-background-clip: text
+		-webkit-text-fill-color: transparent
