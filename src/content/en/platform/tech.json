@@ -6,10 +6,12 @@
 		"boxes": [
 			{
 				"title": "EXPLORE Platform",
+				"icon": "i-box-1.svg",
 				"description": "Start building your integration and accept your first payment in minutes. Stripe libraries are available in every language from Ruby to Go."
 			},
 			{
 				"title": "CHECK OUT TOKENS",
+				"icon": "i-box-2.svg",
 				"description": "Start building your integration and accept your first payment in minutes. Stripe libraries are available in every language from Ruby to Go."
 			}
 		]

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="125px" height="125px" viewBox="0 0 125 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="101.614906%" y1="0%" x2="1.68850304%" y2="113.235698%" id="linearGradient-1">
+            <stop stop-color="#DC67F2" offset="0%"></stop>
+            <stop stop-color="#2077FA" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-19.3%" y="-16.7%" width="138.6%" height="133.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.414603028   0 0 0 0 0.499707015   0 0 0 0 0.569276148  0 0 0 0.475854846 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0.2" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <circle id="Oval-7-Copy" fill="url(#linearGradient-1)" cx="62.2715147" cy="62.2715147" r="62.2715147"></circle>
+            <g id="Coin-Copy-3" filter="url(#filter-2)" transform="translate(28.261319, 24.261319)">
+                <g id="Group-14" opacity="0.400000006" transform="translate(0.321279, 0.532199)">
+                    <polygon id="Path-15-Copy-2" fill="url(#linearGradient-3)" opacity="0.200000003" points="34.7786392 79.3678989 35.1938653 39.5770749 1.04000355 20.0890246 0.537277864 59.3921873"></polygon>
+                    <polygon id="Path-15" fill="url(#linearGradient-4)" points="1.27928969 20.0890246 34.0833301 39.5770749 68.2371919 20.0890246 35.5206511 0.11331298"></polygon>
+                    <polygon id="Path-15-Copy" fill="url(#linearGradient-3)" opacity="0.900000036" points="34.4985562 79.3678989 34.0833301 39.5770749 68.2371919 20.0890246 68.7399176 59.3921873"></polygon>
+                </g>
+                <g id="Group-14-Copy-11" transform="translate(17.004399, 19.760202)">
+                    <polygon id="Path-15-Copy-2" fill="url(#linearGradient-3)" opacity="0.200000003" points="17.9411062 40.9431747 18.155307 20.4164544 0.53650213 10.3632382 0.277163208 30.6383907"></polygon>
+                    <polygon id="Path-15" fill="url(#linearGradient-4)" points="0.659941639 10.3632382 17.5824201 20.4164544 35.201225 10.3632382 18.3238846 0.0584542768"></polygon>
+                    <polygon id="Path-15-Copy" fill="url(#linearGradient-3)" opacity="0.900000036" points="17.7966209 40.9431747 17.5824201 20.4164544 35.201225 10.3632382 35.4605639 30.6383907"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

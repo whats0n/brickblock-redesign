@@ -1,6 +1,6 @@
 <!-- begin i-tech -->
 <div class="i-tech">
-	<div class="inner i-tech__inner">
+	<div class="inner">
 		<div class="i-tech__content">
 			<h3 class="i-title-md i-tech__title">{{tech.title}}</h3>
 			<p>{{tech.description}}</p>
@@ -11,8 +11,10 @@
 				<div class="i-tech__col">
 					<div class="i-box">
 						<a href="#" class="i-box__inner">
-							<img src="img/{{item.img}}" alt="" class="i-box__icon" />
-							<div class="i-box__title">{{item.title}}</div>
+							<img src="img/{{item.icon}}" alt="" class="i-box__icon" />
+							<div class="i-title-sm i-box__title">
+								<div class="i-box__title-in">{{item.title}} {{mixins.icon('arrow')}}</div>
+							</div>
 							<div class="i-box__description">{{item.description}}</div>
 						</a>
 					</div>
