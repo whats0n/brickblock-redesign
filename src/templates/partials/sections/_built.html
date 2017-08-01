@@ -1,0 +1,34 @@
+<!-- built -->
+<div class="i-built">
+	<div class="i-built__inner inner">
+		<div class="i-built__row">
+			<div class="i-built__col-left">
+				<div class="i-built__colorText">{{ built.colorText }}</div>
+			</div>
+			<div class="i-built__col-right">
+				<h4 class="i-built__sub-title i-sub-title">{{built.subTitle}}</h4>
+				<h3 class="i-built__title-md i-title-md">{{built.title}}</h3>
+				{% for text in built.text %}
+					<p>{{text}}</p>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="i-tabs js-tabs">
+			<ul class="i-tabs__list">
+				{% for data in built.tabs %}
+					<li class="i-tabs__item js-tabs-item"><a href="#">{{ data.item }}</a></li>
+				{% endfor %}
+			</ul>
+			<div class="i-tabs__container">
+				{% for data in built.tabs %}
+					<div class="i-tabs__content js-tabs-content">
+						<div class="i-tabs__img">
+							<img src="./img/{{ data.img }}" alt="img">
+						</div>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</div>
+<!-- ¯\_(ツ)_/¯ -->

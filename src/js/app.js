@@ -38,14 +38,44 @@ $(document).ready(function() {
 
   });
 
-  $('a').on('click', function() {
-    var h = this.getAttribute('href');
-    if(/^#/.test(h) === true) {
-      $('html,body').animate({
-        scrollTop: $(h).offset().top - 140
-      }, 1500);
-    }
-  });
+  // $('a').on('click', function() {
+  //   var h = this.getAttribute('href');
+  //   if(/^#/.test(h) === true) {
+  //     $('html,body').animate({
+  //       scrollTop: $(h).offset().top - 140
+  //     }, 1500);
+  //   }
+  // });
+
+  ;(function() {
+    let tabs = $('.js-tabs');
+    let item = $('.js-tabs-item');
+
+    tabs.each(function(i,el) {
+      let tabs = $(el);
+      let firstItem = tabs.find('.js-tabs-item').first();
+      let firstContentBlock = tabs.find('.js-tabs-content').first();
+      firstItem.addClass('is-open');
+      firstContentBlock.show();
+    });
+
+    item.click(function(e) {
+      e.preventDefault();
+      let thisItem = $(this);
+      let thisTabs = thisItem.parents('.js-tabs');
+      let items = $(thisTabs.find('.js-tabs-item'));
+      let index = thisItem.index();
+      let contentBlocks = thisTabs.find('.js-tabs-content');
+      let activeContentBlock = $(contentBlocks[index]);
+      
+      items.removeClass('is-open');
+      thisItem.addClass('is-open');
+      contentBlocks.hide();
+      activeContentBlock.fadeIn(600);
+    });
+
+
+  })();
 
 });
 

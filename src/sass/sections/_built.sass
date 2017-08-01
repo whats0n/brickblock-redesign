@@ -1,0 +1,30 @@
+.i-built
+	font-size: 17px
+	&__row
+		+clr
+	&__col-left
+		float: left
+		padding-right: 60px
+		width: 325px
+		text-align: right
+	&__col-right
+		overflow: hidden
+	&__colorText
+		+f('stm', 24)
+		letter-spacing: -0.055em 
+		line-height: 1.24 
+		color: $link-blue 
+		@supports (-webkit-background-clip: text) and (-webkit-text-fill-color: transparent)
+			background-image: linear-gradient(50deg, #4142fe 0%, #d465f3 100%)
+			-webkit-background-clip: text
+			-webkit-text-fill-color: transparent
+	&__sub-title
+	&__title-md
+
+.i-tabs
+	&__list
+	&__item
+		a
+	&__container
+	&__content
+		display: none

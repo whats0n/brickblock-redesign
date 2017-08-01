@@ -1,0 +1,29 @@
+{
+	"built": {
+		"colorText": "Perform complex behavioral analysis and get answers in seconds with automated insights, enterprise security, and",
+		"subTitle": "BUILT ON ETHEREUM",
+		"title": "Secure and transparent ",
+		"text": [
+			"The rising global demand for cryptocurrencies calls for a compliant infrastructure platform and a legal framework that seamlessly connect brick & mortar investments with cryptocurrencies. ",
+			"It uses smart contracts to handle micro as well as big investments thus offering lower fees and better prices than traditional banks. Users get an asset-backed token with a unique denomination after each investment."
+		],
+		"tabs": [
+			{
+				"item": "Chart One Feature",
+				"img": "built-img.png"
+			},
+			{
+				"item": "Rising global demand",
+				"img": "built-img.png"
+			},
+			{
+				"item": "smart contracts",
+				"img": "built-img.png"
+			},
+			{
+				"item": "unique denomination",
+				"img": "built-img.png"
+			}
+		]
+	}
+}
