@@ -1,0 +1,29 @@
+{
+	"partners": {
+		"title": "Brickblock has strong partners",
+		"logos": [
+			{ 
+				"src": "cubits.svg", 
+				"alt": "Cubits"
+			},
+			{ 
+				"src": "transistor.svg", 
+				"alt": "Transistor"
+			},
+			{ 
+				"src": "trezor.svg", 
+				"alt": "Trezor"
+			},
+			{ 
+				"src": "itcoin.svg", 
+				"alt": "ITCoinsBerlin"
+			}
+		],
+		"block": {
+			"icon": "i-box-1.svg",
+			"title": "Let us change the way of investing!",
+			"description": "Contribute  to the development of the Brickblock Platform and Grow.",
+			"btnText": "Learn more about the Tokens"
+		}
+	}
+}

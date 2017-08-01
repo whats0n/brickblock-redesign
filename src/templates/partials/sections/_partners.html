@@ -1,0 +1,33 @@
+<!-- begin i-partners -->
+<div class="i-partners">
+	<div class="inner i-partners__inner">
+		<h3 class="i-partners__title">{{partners.title}}</h3>
+		<div class="i-partners__row">
+			{% for item in partners.logos %}
+				<div class="i-partners__col">
+					<a href="#" class="i-partners__logo">
+						<img src="img/{{item.src}}" alt="{{item.alt}}">
+					</a>
+				</div>
+			{% endfor %}
+		</div>
+		<div class="i-partners__box">
+			<div class="i-block">
+				<img src="img/{{partners.block.icon}}" alt="/" class="i-block__icon">
+				<div class="i-block__content">
+					<h3 class="i-title-md i-block__title">{{partners.block.title}}</h3>
+					<div class="i-block__description">{{partners.block.description}}</div>
+				</div>
+				<a href="#" class="btn btn_dark i-block__btn">
+					{{partners.block.btnText}}
+					<div class="btn__arr">
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- end i-partners -->
