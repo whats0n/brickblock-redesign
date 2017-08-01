@@ -24,9 +24,10 @@ var langs = [
 ];
 
 var pages = {
-    'home': [
+    'platform': [
         'info',
-        'built'
+        'built',
+        'tech'
     ]
 };
 
@@ -59,7 +60,7 @@ function renderHtml(onlyChanged) {
                 })
                 // var current = JSON.parse(fs.readFileSync("src/content/"+lang.name+"/home/"+pagename+".json"));
                 langdata = _.extend(langdata, global);
-                console.log(langdata);
+                // console.log(langdata);
                 return langdata;
             }))
             .pipe(nunjucksRender({

@@ -1,0 +1,24 @@
+<!-- begin i-tech -->
+<div class="i-tech">
+	<div class="inner">
+		<div class="i-tech__content">
+			<h3 class="i-title-md i-tech__title">{{tech.title}}</h3>
+			<p>{{tech.description}}</p>
+		</div>
+		<img src="img/technology.svg" alt="{{tech.imgAlt}}" class="i-tech__img">
+		<div class="i-tech__row">
+			{% for item in tech.boxes %}
+				<div class="i-tech__col">
+					<div class="i-box">
+						<a href="#" class="i-box__inner">
+							<img src="img/{{item.img}}" alt="">
+							<div class="i-box__title">{{item.title}}</div>
+							<div class="i-box__description">{{item.description}}</div>
+						</a>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+<!-- end i-tech -->
