@@ -25,9 +25,9 @@ var langs = [
 
 var pages = {
     'platform': [
-        'info',
-        'built',
-        'tech'
+        'tech',
+        'topic',
+        'built'
     ]
 };
 
